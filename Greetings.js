@@ -8,7 +8,7 @@ $(document).ready(function() {
 
         var fullName = $("#nameText").val();
 
-        var checkedBox = $("#input[name=radioBox]:checked");
+        var checkedBox = $("#input[name=radioBox]:checked").val();
 
         var finalGreetings = " Welcome, " + checkedBox + " " + fullName + ". ";
 
