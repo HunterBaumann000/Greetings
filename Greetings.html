@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="stylesheet" href="Greetings.js">
+    <meta charset="UTF-8">
+    <title>BAC Calculator</title>
+
+</head>
+
+<body>
+<form>
+
+    <label for="nameText">Enter Your Full Name: </label>
+    <input type="text" name="name" id="nameText">
+
+    <br> <br> <br>
+    <b>Select Your Military Position</b>
+    <br> <br>
+
+    <input type="radio" name="radioBox" id="privateRank">
+    <label for="privateRank">Private</label>
+
+    <br> <br>
+
+    <input type="radio" name="radioBox" id="sergeantRank">
+    <label for="sergeantRank">Sergeant</label>
+
+    <br> <br>
+
+    <input type="radio" name="radioBox" id="specialistRank">
+    <label for="specialistRank">Specialist</label>
+
+    <br> <br> <br>
+
+    <Button> <span id="Submit"></span> Submit </Button>
+</form>
+
+<p> <span id="greetingTxt"></span></p>
+
+</body>
+</html>
